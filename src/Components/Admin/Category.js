@@ -51,7 +51,7 @@ const Category = () => {
           console.log(error);
         }
       });
-  }, []);
+  }, []); 
   // const createDialogClose=()=>{
   //   setCreateDialog(false);
   // }

@@ -45,7 +45,7 @@ const SignUp = () => {
     if(!email.test(val.email)){
       alert.error('Enter Valid Email');
       return ;
-    }
+    } 
     if(!pass.test(val.password)){
       alert.error('Password must be 8-16 char long with a upper,lower and special char');
       return ;

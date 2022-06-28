@@ -414,7 +414,7 @@ const Product = () => {
             </Button>
           )
           }
-        </DialogActions>
+        </DialogActions> 
       </Dialog>
       {/* //delete Alert */}
       <Dialog

@@ -66,7 +66,7 @@ const DrawerUser = () => {
                         </>
                     )
                 })
-            }
+            } 
             </List>
             <div style={{position:'fixed',bottom:0}}>
                 Total Amount:{total}

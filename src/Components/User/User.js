@@ -12,7 +12,7 @@ import DrawerUser from './DrawerUser';
 import UserHome from './UserHome';
 
 const User = () => {
-    const drawerWidth = 240;
+    const drawerWidth = 240; 
     const container =
       window !== undefined ? () => window.document.body : undefined;
     const [mobileOpen, setMobileOpen] = React.useState(false);

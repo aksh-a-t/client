@@ -46,7 +46,7 @@ const Admin = () => {
                 width: drawerWidth,
               },
             }}
-          >
+          > 
             {<DrawerComp  current={current} setCurrent={setCurrent}/>}
           </Drawer>
           <Drawer

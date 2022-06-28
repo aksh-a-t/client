@@ -11,7 +11,7 @@ const DrawerComp = ({current,setCurrent}) => {
   // const [current,setCurrent] = useState("");
   const navigate = useNavigate();
   const location = useLocation();
-  useEffect(()=>{
+  useEffect(()=>{ 
     let path=location.pathname.split("/")[2];
     let val=path.charAt(0).toUpperCase()+path.substring(1);
     // console.log(path.length);

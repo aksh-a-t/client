@@ -179,7 +179,7 @@ const ViewBill = () => {
             </TableHead>
             <TableBody>
               {
-// @ts-ignore
+// @ts-ignore 
               viewData&&viewData.productDetails&&viewData.productDetails.map((val, i) => {
                 return (
                   <TableRow hover role="checkbox" tabIndex={-1} key={i}>

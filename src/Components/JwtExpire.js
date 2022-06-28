@@ -6,4 +6,4 @@ const JwtExpire=(navigate,alert)=>{
     navigate("/login");
     alert.error("Session Expired. Login Again");
 }
-export default JwtExpire;
+export default JwtExpire; 

@@ -6,7 +6,7 @@ const Home = () => {
   const [height, setHeight] = useState("");
   useEffect(() => {
     setHeight(`${window.innerHeight}px`);
-  }, []);
+  }, []); 
   return (
     <div style={{ height: height }} id="homepage-cont">
       <div className="homepage-back-overlay constantMargin">
